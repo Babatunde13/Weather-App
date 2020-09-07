@@ -31,9 +31,7 @@ class App extends  React.Component {
       })
       }
     }
-  static getDerivedStateFromProps (props) {
-    return props.name
-  }
+    
   render() {
     return (
       <div className='container weather'>
