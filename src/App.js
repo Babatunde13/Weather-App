@@ -6,8 +6,7 @@ class App extends  React.Component {
     location: '',
     isLoading: false,
     apiKey: process.env.REACT_APP_API_KEY ,
-    weather: '',
-    name: App.getDerivedStateFromProps(this.props)
+    weather: ''
   }
 
   handleChange = (event) => {
