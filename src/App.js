@@ -35,7 +35,6 @@ class App extends  React.Component {
     return props.name
   }
   render() {
-    console.log(this.state)
     return (
       <div className='container weather'>
         <input 
