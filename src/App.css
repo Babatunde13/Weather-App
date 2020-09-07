@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+  background-color: coral;
+}
+
+.container {
+  padding: 10em 1rem;
+  margin: auto;
+  margin-top: 15em;
+  width: 50%;
+  border: 3px ;
+  padding: 10px;
+}
+
+.text {
+  width: 400px;
+  height: 70px;
+  padding: 5px 20px;
+  border-radius: 2%;
+  margin-left: 6em;
+}
+
+.btn {
+  margin: 7px 20px;
+  display: inline-block;
+  border: none;
+  background: #555;
+  color: #fff;
+  padding: 17px 20px;
+  cursor: pointer;
+  margin-left: 16em;
+}
+
+.btn:hover{
+  background: #666
+}
